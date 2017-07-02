@@ -88,6 +88,7 @@
 		// Header.
 			var $header = $('#header'),
 				$headerTitle = $header.find('header'),
+				$location = $header.find('.location'),
 				$headerContainer = $header.find('.container');
 
 			// Make title fixed.
@@ -100,10 +101,18 @@
 							$headerTitle
 								.css('position', 'fixed')
 								.css('height', 'auto')
-								.css('top', '50%')
+								.css('top', '30%')
 								.css('left', '0')
 								.css('width', '100%')
 								.css('margin-top', ($headerTitle.outerHeight() / -2));
+							
+							$location
+								.css('position', 'fixed')
+								.css('height', 'auto')
+								.css('top', '65%')
+								.css('left', '0')
+								.css('width', '100%')
+								.css('margin-top', ($location.outerHeight() / -2));
 
 						});
 
@@ -115,7 +124,15 @@
 								.css('top', '')
 								.css('left', '')
 								.css('width', '')
-								.css('margin-top', '');
+								.css('margin-top', '15px');
+
+							$location
+								.css('position', '')
+								.css('height', '')
+								.css('top', '')
+								.css('left', '')
+								.css('width', '')
+								.css('margin-top', '15px');
 
 						});
 
@@ -131,6 +148,7 @@
 						terminate: function() {
 
 							$headerTitle.css('opacity', '');
+							$location.css('opacity', '');
 
 						},
 						scroll: function(progress) {
@@ -142,6 +160,7 @@
 									x = progress;
 
 								$headerTitle.css('opacity', Math.max(0, Math.min(1, x * 2)));
+								$location.css('opacity', Math.max(0, Math.min(1, x * 2)));
 
 						}
 					});
