@@ -190,7 +190,7 @@
 		}
 
 		.container {
-			width: 100%;
+			width: 80%;
 		}
 
 	}
@@ -3064,6 +3064,12 @@
 				.main .container .image.primary:first-child {
 					margin: -2em 0 2.5em 0;
 				}
+
+		/* Header */
+
+			#header header h1 {
+				font-size: 4.0em;
+			}
 
 		/* Footer */
 
