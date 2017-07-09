@@ -2191,6 +2191,12 @@
 		font-family: "Arizonia";
 	}
 
+	.specialFont2 {
+		margin: 0 3px 0 3px;
+		text-transform: lowercase;
+		font-size: 0.75em;
+	}
+
 /* Disable home page animation
 /*
 		body.homepage #header:after {
