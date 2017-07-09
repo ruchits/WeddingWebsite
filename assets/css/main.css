@@ -2487,6 +2487,7 @@
 		overflow: hidden;
 		padding: 2em 0 2em 0;
 		margin-bottom: 0;
+		background: #fff;
 	}
 
 		.carousel .forward, .carousel .backward {
