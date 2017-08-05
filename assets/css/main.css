@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url('https://fonts.googleapis.com/css?family=Questrial');
 @import url('https://fonts.googleapis.com/css?family=Arizonia');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,700&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin-ext');
 @import url("font-awesome.min.css");
@@ -2025,6 +2026,7 @@
 		border: 0;
 		cursor: pointer;
 		outline: 0;
+		font-family: 'Raleway', sans-serif;
 		font-weight: 300;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2193,8 +2195,9 @@
 
 	.specialFont2 {
 		margin: 0 3px 0 3px;
-		text-transform: lowercase;
-		font-size: 0.75em;
+		text-transform: none;
+		font-size: 2.0em;
+		font-family: "Tangerine";
 	}
 
 /* Disable home page animation
